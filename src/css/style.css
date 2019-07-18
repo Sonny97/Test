@@ -41,8 +41,58 @@ body {
   margin-bottom: -4.8vh;
 }
 
-.container-element--button-info {
-    
+/*------Character's Info section*/
+
+.container-info--character {
+  background-color: black;
+}
+
+.gender-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender-text {
+}
+
+.status-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.status-text {
+}
+
+.species-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.species-text {
+}
+
+.origin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.origin-text {
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-text {
+}
+
+.type-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.type-text {
 }
 
 /*Tablet Responsive section*/
