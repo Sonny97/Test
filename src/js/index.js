@@ -27,3 +27,8 @@ fetch('https://rickandmortyapi.com/api/').then((request) => {
   })
 })
 
+
+function callAPI(request){
+  fetch(request.info.next).then((request) => {
+    return request.json()
+}
