@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open-sans';
+    border: none;
+    align-content: center;
+}
+
+.container-elements {
+    margin: 5%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.imageCharacters {
+    width: 90%;
+}
+
+/*Tablet Responsive section*/
+
+@media (max-width: 768px) {
+
+}
+
+/*Desktop Responsive section*/
+
+@media (min-width: 769px) {
+
+}
