@@ -45,54 +45,86 @@ body {
 
 .container-info--character {
   background-color: black;
+  margin-top: -4%;
+  margin-bottom: 3%;
 }
 
 .gender-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .gender-text {
+  color: whitesmoke;
+  margin-right: 34%;
 }
 
 .status-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .status-text {
+  color: whitesmoke;
+  margin-right: 34%;
 }
 
 .species-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .species-text {
+  color: whitesmoke;
+  margin-right: 30%;
 }
 
 .origin-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .origin-text {
+  color: whitesmoke;
+  margin-right: 28%;
 }
 
 .location-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .location-text {
+  color: whitesmoke;
+  margin-right: 16%;
 }
 
 .type-container {
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
 }
 
 .type-text {
+  color: whitesmoke;
+  margin-right: 33%;
 }
 
 /*Tablet Responsive section*/
