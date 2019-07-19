@@ -190,12 +190,34 @@ function putCharacters(requestCharacters) {
       typeContainer.appendChild(type);
       typeContainer.appendChild(typeCharacter);
 
+      /*---------------------------------------------------------*/
+
+      //declare info vars
+      let episodecontainer = document.createElement("div");
+      episodecontainer.classList.add("episode-container");
+
+      //declare title of var
+      let episode = document.createElement("label");
+      episode.classList.add("episode-text");
+      episode.innerHTML = "Episodio: ";
+
+      //declare var's content
+      let episodeCharacter = document.createElement("label");
+      episodeCharacter.classList.add("episode-text");
+      episodeCharacter.innerHTML = '<a href="'+ element.episode[0] + '">Episodios</a>';
+
+      //added to container section var
+      episodecontainer.appendChild(episode);
+      episodecontainer.appendChild(episodeCharacter);
+
+
       divInfo.appendChild(genderContainer);
       divInfo.appendChild(statusContainer);
       divInfo.appendChild(speciesContainer);
       divInfo.appendChild(originContainer);
       divInfo.appendChild(locationContainer);
       divInfo.appendChild(typeContainer);
+      divInfo.appendChild(episodecontainer);
 
       containerImageCharacter.appendChild(divInfo);
     }

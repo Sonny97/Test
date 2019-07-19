@@ -9,12 +9,34 @@ body {
   align-content: center;
 }
 
+.head-container {
+  background-image: url("https://k61.kn3.net/taringa/7/D/3/F/F/7/jagggg/05A.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: -5%;
+}
+
+.head-info {
+  color: white;
+  text-align: center;
+  padding: 16% 10% 20%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.head-guide {
+  color: white;
+  text-align: center;
+  padding: 1% 10% 2%;
+}
+
 .container-Father {
   background-image: linear-gradient(to bottom right, black, yellow);
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 2%;
 }
 
 .container-elements--text {
@@ -45,7 +67,7 @@ body {
 
 .container-info--character {
   background-color: black;
-  margin-top: -4%;
+  margin-top: -2%;
   margin-bottom: 3%;
 }
 
@@ -127,12 +149,98 @@ body {
   margin-right: 33%;
 }
 
+.episode-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 0px 5% 0px;
+  width: 91%;
+}
+
+.episode-text {
+  color: whitesmoke;
+  margin-right: 33%;
+}
+
 /*Tablet Responsive section*/
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 426px) {
+  .gender-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .status-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .species-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .location-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .origin-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .type-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
+
+  .episode-text {
+    color: whitesmoke;
+    margin-right: 17%;
+  }
 }
 
 /*Desktop Responsive section*/
 
 @media (min-width: 769px) {
+
+  .head-container {
+    margin-bottom: -5%;
+  }
+
+  .gender-text {
+    color: whitesmoke;
+    margin-right: 34%;
+  }
+
+  .status-text {
+    color: whitesmoke;
+    margin-right: 34%;
+  }
+
+  .species-text {
+    color: whitesmoke;
+    margin-right: 30%;
+  }
+
+  .location-text {
+    color: whitesmoke;
+    margin-right: 28%;
+  }
+
+  .origin-text {
+    color: whitesmoke;
+    margin-right: 16%;
+  }
+
+  .type-text {
+    color: whitesmoke;
+    margin-right: 33%;
+  }
+
+  .episode-text {
+    color: whitesmoke;
+    margin-right: 33%;
+  }
 }
